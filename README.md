@@ -26,7 +26,7 @@ We employ a U-Net architecture tailored for image-to-image translation tasks, sp
 
 ---
 ## 3. Final Results Summary
-Example of Adam results:
+Example of Adam results (50 epochs, lr = 1e-3, no weight decay):
 <img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/51ab28f8-8c3e-468b-939e-d2bb3694bce7" />
 
 Table produced after training with Adam optimizer (before pruning and quantization):
