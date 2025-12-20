@@ -22,7 +22,7 @@ We employ a U-Net architecture tailored for image-to-image translation tasks, sp
 <img width="756" height="378" alt="image" src="https://github.com/user-attachments/assets/441bf6ee-5687-4f0e-9b62-f915ee41c707" />
 
 
---
+---
 ## 3. Dataset
 Each datapoint consists of a tuple of 200x200 image (density), 2x200x200 image (phase gradients), 200x200 image (mask indicating valid regions of density)
 Train/Validation/Testing Sizes: 1008/336/336
@@ -43,7 +43,7 @@ Table produced after training with Adam optimizer (before pruning and quantizati
 | Peak GPU Utilization| 90.0% |
 | Training Time/Epoch | 8.78 s |
 | Device | NVIDIA T4 GPU |
----
+--
 
 
 ### Pruning results
