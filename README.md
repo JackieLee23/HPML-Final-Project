@@ -23,7 +23,10 @@ We employ a U-Net architecture tailored for image-to-image translation tasks, sp
 <img width="756" height="378" alt="image" src="https://github.com/user-attachments/assets/441bf6ee-5687-4f0e-9b62-f915ee41c707" />
 
 
-
+--
+## 2. Dataset
+Each datapoint consists of a tuple of 200x200 image (density), 2x200x200 image (phase gradients), 200x200 image (mask indicating valid regions of density)
+Train/Validation/Testing Sizes: 1008/336/336
 ---
 ## 3. Final Results Summary
 Example of Adam results (50 epochs, lr = 1e-3, no weight decay):
