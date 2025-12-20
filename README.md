@@ -34,7 +34,7 @@ Train/Validation/Testing Sizes: 1008/336/336
 Weights and Biases link: https://wandb.ai/HPML-final-team/HPML%20Final%20Project?nw=nwuserjcl2259
 
 Example of Adam results (50 epochs, lr = 1e-3, no weight decay):
-<img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/51ab28f8-8c3e-468b-939e-d2bb3694bce7" />
+<img width="800" height="800" alt="image" src="https://github.com/user-attachments/assets/51ab28f8-8c3e-468b-939e-d2bb3694bce7" />
 
 Table produced after training with Adam optimizer (before pruning and quantization):
 | Metric | Value |
