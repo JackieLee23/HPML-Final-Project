@@ -24,11 +24,13 @@ We employ a U-Net architecture tailored for image-to-image translation tasks, sp
 
 
 --
-## 2. Dataset
+## 3. Dataset
 Each datapoint consists of a tuple of 200x200 image (density), 2x200x200 image (phase gradients), 200x200 image (mask indicating valid regions of density)
 Train/Validation/Testing Sizes: 1008/336/336
+
+
 ---
-## 3. Final Results Summary
+## 4. Final Results Summary
 Example of Adam results (50 epochs, lr = 1e-3, no weight decay):
 <img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/51ab28f8-8c3e-468b-939e-d2bb3694bce7" />
 
@@ -44,7 +46,7 @@ Table produced after training with Adam optimizer (before pruning and quantizati
 | Device | NVIDIA T4 GPU |
 ---
 
-## 4. Reproducibility Instructions
+## 5. Reproducibility Instructions
 Quickstart: Minimum Reproducible Result
 To reproduce our minimum reported result, run:
 
@@ -59,7 +61,5 @@ quantized_density_to_phase_grad.ipynb # for quantized model results
 optimizer_comparison_figs.ipynb  # for optimizer comparisons
 ```
 ---
-## 5. Notes (up to you)
-- All scripts are located in `scripts/`, `train.py`, `eval.py`, and `configs/`.
-- Trained Model are saved in `models/`.
-- Cont
+## 6. Notes (up to you)
+- We choose to use Jupyter notebooks for easy access to google colab. Data generated using imaginary time evolution of the 2D Gross Pitaevskii Equation with rotation. 
