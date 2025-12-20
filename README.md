@@ -2,7 +2,7 @@
 ## Team Information
 - **Team Name**: U-Net Performance Optimization for Quantum Phase Reconstruction
 - **Members**:
-- Cameron Rodriguez (UNI)
+- Cameron Rodriguez (cjr2210)
 - Jackson Lee (fbg2107)
 - Fred Angelo Garcia (UNI)
 
