@@ -66,6 +66,22 @@ Accuracy loss as a function of pruning ratio for each method employed (pruning, 
 
 Using the iterative pruning + retraining method, we can compress the model by 99%, while still retaining 95% accuracy. This is unexpected !
 
+### quantization main results
+| Method | File Size (MB) | Compression (×) | Error | Error Increase (%) | Mean Diff | Max Diff |
+|--------|----------------|-----------------|-------|-------------------|-----------|----------|
+| Per-Tensor | 16.647 | 3.97× | 0.002918 | +33.5% | 0.038339 | 0.933781 |
+| Per-Channel | 16.670 | 3.97× | 0.002583 | +18.1% | 0.050083 | 1.079907 |
+| Mixed Precision | 16.654 | 3.97× | 0.002209 | +1.0% | 0.009804 | 0.134167 |
+| Original | 66.159 | 1.00× | 0.002186 | 0.0% | 0.000000 | 0.000000 |
+
+**Summary:**
+- **Mixed Precision** offers the best balance: 4× compression with only 1% accuracy loss
+- **Per-Channel** provides similar compression but with 18% higher errors
+- **Per-Tensor** has the highest error increase at 33% despite equal compression
+- All quantized models achieve ~16.6 MB (4× smaller than 66.2 MB Original)
+
+**Recommendation:** Use **Mixed Precision** quantization for optimal performance-compression tradeoff.
+
 ---
 
 ## 5. Reproducibility Instructions
