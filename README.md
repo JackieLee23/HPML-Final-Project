@@ -61,5 +61,5 @@ quantized_density_to_phase_grad.ipynb # for quantized model results
 optimizer_comparison_figs.ipynb  # for optimizer comparisons
 ```
 ---
-## 6. Notes (up to you)
+## 6. Notes
 - We choose to use Jupyter notebooks for easy access to google colab. Data generated using imaginary time evolution of the 2D Gross Pitaevskii Equation with rotation. 
