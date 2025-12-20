@@ -33,7 +33,7 @@ Table produced after training with Adam optimizer (before pruning and quantizati
 | Metric | Value |
 |----------------------|-------------|
 | Test Set Masked Mean Squared Error | 7.79625e-4 (ground truth values range between -pi and pi)|
-| Inference Latency | XX.XX ms |
+| Inference Latency on single example| 8.83 ms |
 | Model Size | 66.2 MB |
 | GPU Memory Allocation| 10.76% |
 | Peak GPU Utilization| 90.0% |
