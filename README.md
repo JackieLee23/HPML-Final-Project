@@ -6,8 +6,6 @@
 - Jackson Lee (jcl2259)
 - Fred Angelo Garcia (fbg2107)
 
-Weights and Biases link: https://wandb.ai/HPML-final-team/HPML%20Final%20Project?nw=nwuserjcl2259
-
 ---
 ## 1. Problem Statement
 How to optimize the performance of a U-Net model for reconstructing quantum phase information from intensity measurements, focusing on optimizing model size, inference latency, and accuracy for deployment on resource-constrained environments such as a lab.
@@ -32,6 +30,9 @@ Train/Validation/Testing Sizes: 1008/336/336
 
 ---
 ## 4. Final Results Summary
+
+Weights and Biases link: https://wandb.ai/HPML-final-team/HPML%20Final%20Project?nw=nwuserjcl2259
+
 Example of Adam results (50 epochs, lr = 1e-3, no weight decay):
 <img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/51ab28f8-8c3e-468b-939e-d2bb3694bce7" />
 
