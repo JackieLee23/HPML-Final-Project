@@ -6,7 +6,6 @@
 - Jackson Lee (jcl2259)
 - Fred Angelo Garcia (fbg2107)
 
-- ...
 ---
 ## 1. Problem Statement
 How to optimize the performance of a U-Net model for reconstructing quantum phase information from intensity measurements, focusing on optimizing model size, inference latency, and accuracy for deployment on resource-constrained environments such as a lab.
