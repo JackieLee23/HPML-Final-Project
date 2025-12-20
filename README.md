@@ -23,7 +23,9 @@ We employ a U-Net architecture tailored for image-to-image translation tasks, sp
 
 ---
 ## 3. Final Results Summary
-Example Table:
+Example of Adam results:
+<img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/51ab28f8-8c3e-468b-939e-d2bb3694bce7" />
+
 | Metric | Value |
 |----------------------|-------------|
 | Final Top-1 Accuracy | XX.XX% |
