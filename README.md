@@ -31,7 +31,7 @@ Example Table:
 | Model Size | XX MB |
 | Peak Memory Use | XX MB |
 | Training Time/Epoch | XX s |
-| Device | A100, Jetson Nano, M1 Pro, etc. |
+| Device | NVIDIA T4 GPU |
 ---
 
 ## 4. Reproducibility Instructions
