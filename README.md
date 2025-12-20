@@ -57,8 +57,7 @@ Example weight distribution histogram during pruning and retraining steps:
 
 Example weight distribution animation of the iterative pruning and retraining technique:
 
-
-
+![hpmlgifText](https://github.com/user-attachments/assets/661b85be-8814-4f11-875f-547f60e42b09)
 
 Accuracy loss as a function of pruning ratio for each method employed (pruning, pruning + retraining, iterative pruning + retraining):
 
