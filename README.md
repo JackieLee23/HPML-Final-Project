@@ -32,7 +32,7 @@ Example of Adam results (50 epochs, lr = 1e-3, no weight decay):
 Table produced after training with Adam optimizer (before pruning and quantization):
 | Metric | Value |
 |----------------------|-------------|
-| Test Set Masked Mean Squared Error | XX.XX% |
+| Test Set Masked Mean Squared Error | 7.79625e-4 (ground truth values range between -pi and pi)|
 | Inference Latency | XX.XX ms |
 | Model Size | 66.2 MB |
 | GPU Memory Allocation| 10.76% |
