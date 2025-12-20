@@ -64,7 +64,7 @@ Accuracy loss as a function of pruning ratio for each method employed (pruning, 
      alt="pruning_weight_distribution" 
      width="400"/>
 
-Using the iterative pruning + retraining method, we can compress the model by 99%, while still retaining 95% accuracy. This is unexpected ! A recommendation going forward to be to characterize the speedup of the resulting model using hardware that can take advantage of sparsity (since we used unstructured pruning). 
+Using the iterative pruning + retraining method, we can compress the model by 99%, while still retaining 95% accuracy. This is unexpected ! A recommendation going forward would to be to characterize the speedup of the resulting model using hardware that can take advantage of sparsity (since we used unstructured pruning). 
 
 ### quantization main results
 | Method | File Size (MB) | Compression (×) | Error | Error Increase (%) | Mean Diff | Max Diff |
