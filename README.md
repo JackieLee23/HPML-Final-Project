@@ -64,6 +64,8 @@ Accuracy loss as a function of pruning ratio for each method employed (pruning, 
      alt="pruning_weight_distribution" 
      width="400"/>
 
+Using the iterative pruning + retraining method, we can compress the model by 99%, while still retaining 95% accuracy. This is unexpected !
+
 ---
 
 ## 5. Reproducibility Instructions
