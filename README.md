@@ -69,7 +69,7 @@ Accuracy loss as a function of pruning ratio for each method employed (pruning, 
 
 Using the iterative pruning + retraining method, we can compress the model by 99%, while still retaining 95% accuracy. This is unexpected ! A recommendation going forward would to be to characterize the speedup of the resulting model using hardware that can take advantage of sparsity (since we used unstructured pruning). 
 
-### quantization main results
+### Quantization main results
 | Method | File Size (MB) | Compression (×) | Error | Error Increase (%) | Mean Diff | Max Diff |
 |--------|----------------|-----------------|-------|-------------------|-----------|----------|
 | Per-Tensor | 16.647 | 3.97× | 0.002918 | +33.5% | 0.038339 | 0.933781 |
