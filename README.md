@@ -26,13 +26,15 @@ We employ a U-Net architecture tailored for image-to-image translation tasks, sp
 Example of Adam results:
 <img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/51ab28f8-8c3e-468b-939e-d2bb3694bce7" />
 
+Table produced after training with Adam optimizer (before pruning and quantization):
 | Metric | Value |
 |----------------------|-------------|
-| Final Top-1 Accuracy | XX.XX% |
+| Test Set Masked Mean Squared Error | XX.XX% |
 | Inference Latency | XX.XX ms |
-| Model Size | XX MB |
-| Peak Memory Use | XX MB |
-| Training Time/Epoch | XX s |
+| Model Size | 66.2 MB |
+| GPU Memory Allocation| 10.76% |
+| Peak GPU Utilization| 90.0% |
+| Training Time/Epoch | 8.78 s |
 | Device | NVIDIA T4 GPU |
 ---
 
