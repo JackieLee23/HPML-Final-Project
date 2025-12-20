@@ -20,6 +20,9 @@ We explore varios optimization techqniques
 ## 2. Model Description
 We employ a U-Net architecture tailored for image-to-image translation tasks, specifically designed to reconstruct phase information from intensity measurements in quantum systems. The U-Net consists of an encoder-decoder structure with skip connections that facilitate the preservation of spatial information during the reconstruction process.
 
+<img width="756" height="378" alt="image" src="https://github.com/user-attachments/assets/441bf6ee-5687-4f0e-9b62-f915ee41c707" />
+
+
 
 ---
 ## 3. Final Results Summary
