@@ -46,6 +46,28 @@ Table produced after training with Adam optimizer (before pruning and quantizati
 | Device | NVIDIA T4 GPU |
 ---
 
+
+### Pruning results
+
+Example weight distribution histogram during pruning and retraining steps:
+
+<img src="https://github.com/user-attachments/assets/a4f994e4-04e9-4c08-87bd-ae118f3fcf32" 
+     alt="pruning_weight_distribution" 
+     width="1000"/>
+
+Example weight distribution animation of the iterative pruning and retraining technique:
+
+
+
+
+Accuracy loss as a function of pruning ratio for each method employed (pruning, pruning + retraining, iterative pruning + retraining):
+
+<img src="https://github.com/user-attachments/assets/445b3397-b1e9-4859-95cf-c67b8217d699" 
+     alt="pruning_weight_distribution" 
+     width="400"/>
+
+---
+
 ## 5. Reproducibility Instructions
 Quickstart: Minimum Reproducible Result
 To reproduce our minimum reported result, run:
