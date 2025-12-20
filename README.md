@@ -35,30 +35,7 @@ Example Table:
 ---
 
 ## 4. Reproducibility Instructions
-
-### A. Requirements
-Install dependencies:
-```bash
-pip install -r requirements.txt
-```
----
-B. Wandb Dashboard
-View training and evaluation metrics here: Wandb Dashboard Link
-(Replace with actual link)
----
-### C. Specify for Training or For Inference or if Both
-To train the model from scratch:
-```bash
-python train.py --config configs/default.yaml
-```
----
-### D. Evaluation
-To evaluate the trained model:
-```bash
-python eval.py --weights checkpoints/best_model.pth
-```
----
-### E. Quickstart: Minimum Reproducible Result
+Quickstart: Minimum Reproducible Result
 To reproduce our minimum reported result, run:
 
 here is a link to the data generated (need to be logged into lionmail):
@@ -66,8 +43,9 @@ https://drive.google.com/drive/folders/1gGsmoTqXq7Eu9O8knNRrxfiQtUfylpZl?usp=sha
 run the following notebooks with the .npz files in the home directory
 
 ```bash
+density_to_phase_grad.ipynb # For search of best optimizer
 quantized_density_to_phase_grad.ipynb # for quantized model results
-optimizer_comparison_figs.ipynb  # for optimizer
+optimizer_comparison_figs.ipynb  # for optimizer comparisons
 ```
 ---
 ## 5. Notes (up to you)
