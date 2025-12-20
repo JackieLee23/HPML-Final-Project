@@ -76,7 +76,7 @@ run the following notebooks with the .npz files in the home directory
 
 ```bash
 density_to_phase_grad.ipynb # For search of best optimizer
-pruned_density_to_phase_grad.ipynb #For pruning results
+pruned_density_to_phase_grad.ipynb # For pruning results
 quantized_density_to_phase_grad.ipynb # for quantized model results
 optimizer_comparison_figs.ipynb  # for optimizer comparisons
 ```
